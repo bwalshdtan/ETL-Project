@@ -1,0 +1,43 @@
+CREATE TABLE 2010Census_age_gender (
+    Geography VARCHAR NOT NULL,
+    Total Population VARCHAR NOT NULL,
+    Male VARCHAR NOT NULL,
+    Female VARCHAR NOT NULL,
+    Median Age (years) VARCHAR NOT NULL,
+    Male Median Age (years) VARCHAR NOT NULL,
+    Female Median Age (years) VARCHAR NOT NULL,
+    Average Household Size VARCHAR NOT NULL,
+    Average Family Size VARCHAR NOT NULL,
+    Persons Under 5 years VARCHAR NOT NULL,
+    Persons Under 18 years VARCHAR NOT NULL,
+    Persons Age 21+ VARCHAR NOT NULL,
+    Persons Age 55+ VARCHAR NOT NULL,
+    Persons Age 60+ VARCHAR NOT NULL,
+    Persons Age 65+ VARCHAR NOT NULL,
+    Percent Population Female VARCHAR NOT NULL,
+    Percent Population Less than 18 VARCHAR NOT NULL
+);
+
+CREATE TABLE 2010Census_demographics (
+    Geography VARCHAR NOT NULL,
+    Total Population VARCHAR NOT NULL,
+    Total Population of One Race_Asian_Native Hawaiian and other Pacific Islander_NHOPI VARCHAR NOT NULL,
+    Total Population of Two or More Races VARCHAR NOT NULL,
+    White VARCHAR NOT NULL,
+    Black or African American VARCHAR NOT NULL,
+    American Indian and Alaska Native VARCHAR NOT NULL,
+    Total Asian VARCHAR NOT NULL,
+    Asian Indian VARCHAR NOT NULL,
+    Chinese VARCHAR NOT NULL,
+    Filipino VARCHAR NOT NULL,
+    Japanese VARCHAR NOT NULL,
+    Korean VARCHAR NOT NULL,
+    Vietmanese VARCHAR NOT NULL,
+    Other Asian VARCHAR NOT NULL,
+    Total NHOPI VARCHAR NOT NULL,
+    Native Hawaiian VARCHAR NOT NULL,
+    Guamian or Chamooro VARCHAR NOT NULL,
+    Samoan VARCHAR NOT NULL,
+    Pacific Islander VARCHAR NOT NULL,
+    Some Other Race VARCHAR NOT NULL
+);
