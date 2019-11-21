@@ -32,7 +32,7 @@ CREATE TABLE product (
 );
 
 CREATE TABLE age_zip (
-	age_id VARCHAR REFERENCES age(age_id),
+	age_group VARCHAR REFERENCES age(age_id),
     zip VARCHAR NOT NULL,
     qty_pct VARCHAR
 );
