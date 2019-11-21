@@ -1,6 +1,6 @@
 CREATE TABLE age (
     age_id VARCHAR NOT NULL PRIMARY KEY,
-    age_group INTEGER NOT NULL
+    age_group VARCHAR NOT NULL
 );
 
 CREATE TABLE race (
@@ -34,7 +34,7 @@ CREATE TABLE product (
 CREATE TABLE age_zip (
 	age_id VARCHAR REFERENCES age(age_id),
     zip VARCHAR NOT NULL,
-    qty_pct VARCHAR NOT NULL
+    qty_pct VARCHAR
 );
 
 CREATE TABLE race_zip (
@@ -46,7 +46,7 @@ CREATE TABLE race_zip (
 CREATE TABLE sex_zip (
 	sex_id VARCHAR REFERENCES sex(sex_id),
 	zip VARCHAR NOT NULL,
-    qty_pct VARCHAR NOT NULL
+    qty_pct VARCHAR
 );
 
 CREATE TABLE store_sales (
